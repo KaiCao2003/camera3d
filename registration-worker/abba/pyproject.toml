@@ -1,0 +1,18 @@
+[project]
+name = "brainbuilder-official-abba-bridge"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "abba-python==0.11.0",
+  "brainglobe-atlasapi==2.3.1",
+  "pyimagej==1.8.0",
+  "scyjava==1.12.5",
+  "jgo==3.1.0",
+  "numpy>=2,<3",
+  "scipy>=1.13,<2",
+  "pillow>=10,<13",
+  "tifffile>=2024.7,<2027",
+]
+
+[tool.uv]
+package = false

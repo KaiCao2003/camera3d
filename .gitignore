@@ -1,0 +1,9 @@
+.DS_Store
+.build/
+dist/
+data/
+exports/
+registration-worker/.venv/
+registration-worker/.pytest_cache/
+registration-worker/__pycache__/
+registration-worker/tests/__pycache__/
